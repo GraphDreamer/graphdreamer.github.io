@@ -147,13 +147,13 @@ body {
   padding: 0;
   /* padding-bottom: 3px; */
   font-size: 0;
-  height: 320px;
-  width: auto;
+  /* height: 320px;
+  width: auto; */
 }
 .widget-carousel video {
   margin: 0;
-  height: 320px;
-  width: auto;
+  height: 100%;
+  /* width: auto; */
 }
 /* ------------- */
 
