@@ -118,7 +118,6 @@ body {
   overflow: hidden;
 }
 
-
 /* .results-carousel .slider {
   height: 450px;
 } */
@@ -150,7 +149,7 @@ body {
   border: 1px solid #bbb;
   border-radius: 10px;
   padding: 0;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3px; */
   font-size: 0;
   height: 350px;
   width: auto;
