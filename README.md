@@ -2,7 +2,7 @@
 
 This is the repository that contains source code for the [GraphDreamer website](https://graphdreamer.github.io/).
 
-If you find Nerfies useful for your work please cite:
+If you find GraphDreamer useful for your work please cite:
 ```
 @article{pgege2023graphdreamer
   author    = {Gao, Gege and Liu, Weiyang and Chen, Anpei and Geiger, Andreas and Schölkopf, Bernhard},
