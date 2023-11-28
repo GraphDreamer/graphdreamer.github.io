@@ -150,6 +150,7 @@ body {
   border: 1px solid #bbb;
   border-radius: 10px;
   padding: 0;
+  padding-bottom: 3rem;
   font-size: 0;
   height: 350px;
   width: auto;
