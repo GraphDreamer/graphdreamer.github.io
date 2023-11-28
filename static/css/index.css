@@ -128,7 +128,7 @@ body {
 }
 .results-carousel video {
   margin: 0;
-  height: 300px;
+  min-height: 300px;
 }
 
 /* ------------- */
