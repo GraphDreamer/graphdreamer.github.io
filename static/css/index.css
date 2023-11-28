@@ -113,6 +113,7 @@ body {
 .publication-body img {
 }
 
+/* ------------- */
 .results-carousel {
   overflow: hidden;
 }
@@ -124,16 +125,17 @@ body {
   border-radius: 10px;
   padding: 0;
   font-size: 0;
-  height: 300px;
-  width: auto;
 }
 .results-carousel video {
   margin: 0;
   height: 300px;
-  width: auto;
 }
 
 /* ------------- */
+.widget-carousel {
+  overflow: hidden;
+}
+
 .widget-carousel .item{
   margin: 5px;
   overflow: hidden;
