@@ -131,7 +131,7 @@ body {
 }
 
 /* ------------- */
-.widget-results-carousel .item {
+.widget-carousel .item {
   margin: 5px;
   overflow: hidden;
   border: 1px solid #bbb;
@@ -139,10 +139,11 @@ body {
   padding: 0;
   font-size: 0;
 }
-.widget-results-carousel video {
-  margin: 0;
+.widget-carousel.item video {
+  margin: 5px;
   height: 500px;
 }
+/* ------------- */
 
 .interpolation-panel {
   background: #f5f5f5;
