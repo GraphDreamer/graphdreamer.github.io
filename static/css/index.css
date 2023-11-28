@@ -118,8 +118,9 @@ body {
   overflow: hidden;
 }
 
-.results-carousel .slider.item{
-  height: 400px;
+
+.results-carousel .slider {
+  height: 450px;
 }
 
 .results-carousel .item {
@@ -133,7 +134,7 @@ body {
 }
 .results-carousel video {
   margin: 0;
-  height: 400px;
+  /* height: 400px; */
 }
 
 /* ------------- */
