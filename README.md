@@ -1,6 +1,6 @@
 # GraphDreamer
 
-This is the repository that contains source code for the [GraphDreamer website](https://ggghsl.github.io/graphdreamer).
+This is the repository that contains source code for the [GraphDreamer website](https://graphdreamer.github.io/).
 
 If you find Nerfies useful for your work please cite:
 ```
