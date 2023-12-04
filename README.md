@@ -8,6 +8,7 @@ If you find GraphDreamer useful for your work please cite:
   author    = {Gao, Gege and Liu, Weiyang and Chen, Anpei and Geiger, Andreas and Schölkopf, Bernhard},
   title     = {GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs},
   journal   = {arXiv},
+  volume    = {2312.00093},
   year      = {2023},
 }
 ```
