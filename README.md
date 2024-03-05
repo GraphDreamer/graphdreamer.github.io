@@ -4,12 +4,11 @@ This is the repository that contains source code for the [GraphDreamer website](
 
 If you find GraphDreamer useful for your work please cite:
 ```
-@article{pgege2023graphdreamer
+@Inproceedings{gao2024graphdreamer,
   author    = {Gao, Gege and Liu, Weiyang and Chen, Anpei and Geiger, Andreas and Schölkopf, Bernhard},
   title     = {GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs},
-  journal   = {arXiv},
-  volume    = {2312.00093},
-  year      = {2023},
+  booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2024},
 }
 ```
 
