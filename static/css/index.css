@@ -182,13 +182,13 @@ body {
   border-radius: 5px;
 }
 
-.myHeading img {
+.publication-title img {
   width: 10%;
   height: 10%;
   object-fit: cover;
   margin-right:10px;
 }
-.myHeading h1, .myHeading img {
+.publication-title h1, .publication-title img {
   display:inline-block;
   vertical-align:middle;
 }
