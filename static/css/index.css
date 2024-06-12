@@ -31,9 +31,6 @@ body {
 }
 
 
-.publication-title {
-}
-
 .publication-banner {
   max-height: parent;
 
@@ -183,4 +180,12 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+.myHeading img {
+  margin-right:10px;
+}
+.myHeading h1, .myHeading img {
+  display:inline-block;
+  vertical-align:middle;
 }
