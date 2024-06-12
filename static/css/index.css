@@ -183,6 +183,7 @@ body {
 }
 
 .myHeading img {
+  width: 2%;
   margin-right:10px;
 }
 .myHeading h1, .myHeading img {
