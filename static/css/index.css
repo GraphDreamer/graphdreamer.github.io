@@ -183,8 +183,8 @@ body {
 }
 
 .myHeading img {
-  width: 2%;
-  height: 2%;
+  width: 10%;
+  height: 10%;
   object-fit: cover;
   margin-right:10px;
 }
