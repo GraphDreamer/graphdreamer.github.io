@@ -250,7 +250,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present <i>GraphDreamer</i>, the first framework capable of generating compositional 3D scenes from scene graphs, where objects are represented as nodes and their interactions as edges. 
+            We present GraphDreamer, the first framework capable of generating compositional 3D scenes from scene graphs, where objects are represented as nodes and their relationships as edges. 
           <!-- </p>
           <p>
             As pretrained text-to-image diffusion models become increasingly powerful, recent efforts have been made to distill knowledge from these text-to-image pretrained models for optimizing a text-guided 3D model. Most of the existing methods generate a holistic 3D model from a plain text input. This can be problematic when the text describes a complex scene with multiple objects, because the vectorized text embeddings are inherently unable to capture a complex description with multiple entities and relationships. Holistic 3D modeling of the entire scene further prevents accurate grounding of text entities and concepts. 
@@ -272,7 +272,7 @@
             Consider the task of text-grounded 3D generation. Existing methods take a plain text description of a 3D scene as input and consider the scene as a whole. This approach can be problematic for scenes with multiple objects, as the describing text becomes very long and complicated. The vectorized text embeddings inherently suffer from attribute confusion and guidance collapse.
           </p>
         </div>
-        <img class="interpolation-image" alt="motivation." src="./static/images/motivation.svg"/>
+        <img class="interpolation-image" alt="motivation." src="./static/images/motivation.png"/>
         <div class="content has-text-justified">
           <p>
             Compositional modeling shows promise in addressing these problems. A straightforward solution to compositionality is to explicitly position objects within a set of 3D bounding boxes. However, this approach relies on the restrictive assumption that there is no overlap between object boxes, which often does not hold in practice.
