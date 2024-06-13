@@ -70,7 +70,7 @@
         <div class="column has-text-centered">
           
           <!-- Logo+Title -->            
-          <h1 class="title is-1 publication-title">
+          <h1 class="title is-1 publication-title" style="margin-top: 0; margin-bottom: 0">
             <img src="./static/images/favicon.svg"/>
             <strong>GraphDreamer: </strong>
           </h1>
@@ -263,17 +263,6 @@
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <!-- <h2 class="title is-3">Video</h2> -->
-        <div class="publication-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/vDhhf6BA1E4?si=Jt3kGeuy9SzmnKXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-
     <!-- Pipeline. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -285,13 +274,25 @@
         <img src="./static/images/paper_pipeline.jpg"
           class="interpolation-image"
           alt="paper pipeline."/>
-        
         <div class="content has-text-justified">
-          <p>GraphDreamer decomposes the scene graph into global, node-wise and edge-wise text description, and represents and optimizes the SDF-based objects individually with identity-aware object fields.</p>
+          <p>
+            <strong>Main insight:</strong> a scene graph, with its nodes and edges clearly defining objects and object relationships, is a semantically more precise representation of a scene. GraphDreamer jointly supervises the generation at the object, relationship, and global levels, by leveraging the nodes, edges, and the entire graph for grounding.</p>
         </div>
       </div>
     </div>
     <!--/ Pipeline. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vDhhf6BA1E4?si=Jt3kGeuy9SzmnKXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+
   </div>
 </section>
 
